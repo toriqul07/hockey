@@ -80,7 +80,7 @@
         </div>
         
         </nav>
-        <div class="md:container md:mx-auto">
+        <div class="md:container  md:mx-auto lg:relative">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="images/1.png" class="w-full" />
@@ -111,11 +111,17 @@
                   </div>
                 </div>
         </div>
-        <div class="h-[30vh] w-2/4 mx-auto bg-black p-8">
-            <h3 class="text-2xl text-white pb-4">Meet all the heroes from the field</h3>
+        <div class="hidden lg:flex h-[30vh] w-2/4 flex-1  mx-auto absolute right-12  bottom-16 bg-black p-8">
+            <div>
+              <h3 class="text-2xl text-white pb-4">Meet all the heroes from the field</h3>
             <p class="text-base text-white">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
         </div>
         </div>
+        <div class="h-[30vh] w-4/4  bg-black p-8 lg:hidden">
+          <h3 class="text-xl text-white pb-2">Meet all the heroes from the field</h3>
+          <p class="text-base text-white">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+      </div>
     </header>
     <main class="md:container md:mx-auto">
 
